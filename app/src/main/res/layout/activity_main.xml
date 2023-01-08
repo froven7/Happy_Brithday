@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/brithday"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="35dp"
+        android:text="Happy\n Birthday"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="35dp"
+        android:textStyle="bold"></TextView>
+<Button
+    android:backgroundTint="@android:color/holo_red_dark"
+    android:layout_alignParentBottom="true"
+    android:layout_centerInParent="true"
+    android:layout_gravity="bottom"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:id="@+id/button"></Button>
+
+<nl.dionsegijn.konfetti.xml.KonfettiView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/konfettiview"></nl.dionsegijn.konfetti.xml.KonfettiView>
+</RelativeLayout>
